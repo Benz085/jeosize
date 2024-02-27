@@ -12,3 +12,13 @@ BACKEND TEST
 [x] กหนดใหใช node js สราง api
 
 [ ] กหนดให deploy ขน heroku.com หรอ Cloud Application Platform เจาอนๆ
+
+
+
+FRONTEND TEST
+
+[x] สราง web responsive ตามตวอยาง UX/UI ทไดรบใหเหมอนทสดโดยใชnuxt js หรอ next js
+
+[x] สราง Top bar, Body และ footer ใชในทกๆเพจ รวมถง element ตางๆโดยทการแยกเปน component อยางชดเจน
+
+[x] สรางหนาคนหาขอมลรานอาหาร โดยใชขอมล API จาก Place search|PlaceAPI (by Google) ผลลพธ ทไดตองเปน JSON เทานน
