@@ -1,0 +1,9 @@
+docker build -t jnz-backend-image:latest .
+docker build --no-cache -t jnz-backend-image:latest .
+docker run -dp 8000:8000 --name jnz-backend-container  jnz-backend-image:latest
+
+
+docker build -t jnz-frontend-image:latest .
+docker build --no-cache -t jnz-frontend-image:latest .
+docker run -dp 3000:3000 --name jnz-frontend-container  jnz-frontend-image:latest
+docker run -dp 3030:3000 --name jnz-frontend-container  jnz-frontend-2-image
